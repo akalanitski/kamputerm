@@ -22,7 +22,7 @@
 
 	<article>
 		<key>account</key>
-		<definition type="h" kind="al">рахунак, конт</definition>
+		<definition type="h" kind="al">рахунак (фін.), конт, уліковы запіс (тэх.)</definition>
 		<definition type="h" kind="mt"><![CDATA[<a href="http://wg.kamputerm.org/meetings/sustreca-13">13</a>]]></definition>
 		<definition type="h" kind="rm">на перагляд</definition>
 	</article>
@@ -86,6 +86,12 @@
 	</article>
 
 	<article>
+		<key>alias</key>
+		<definition type="h" kind="al">псеўданім</definition>
+		<definition type="h" kind="rm">Ali, з перакладу</definition>
+	</article>
+
+	<article>
 		<key>align</key>
 		<definition type="h" kind="al">раўнава́ць, зраўнава́ць</definition>
 		<definition type="h" kind="mt"><![CDATA[<a href="http://wg.kamputerm.org/meetings/sustreca-12">12</a>]]></definition>
@@ -120,6 +126,11 @@
 	</article>
 
 	<article>
+		<key>allow</key>
+		<definition type="h" kind="rm">Ali, з перакладу</definition>
+	</article>
+
+	<article>
 		<key>animate</key>
 		<definition type="h" kind="al">анімава́ць, занімава́ць</definition>
 		<definition type="h" kind="mt"><![CDATA[<a href="http://wg.kamputerm.org/meetings/sustreca-28">28</a>]]></definition>
@@ -137,6 +148,12 @@
 		<definition type="h" kind="al">−</definition>
 		<definition type="h" kind="mt"><![CDATA[<a href="http://wg.kamputerm.org/meetings/sustreca-30">30</a>]]></definition>
 		<definition type="h" kind="rm">на перагляд</definition>
+	</article>
+
+	<article>
+		<key>annotation</key>
+		<definition type="h" kind="by">анатацыя</definition>
+		<definition type="h" kind="rm">Ali, з перакладу</definition>
 	</article>
 
 	<article>
@@ -160,7 +177,14 @@
 	</article>
 
 	<article>
+		<key>anonym</key>
+		<definition type="h" kind="al">ананім</definition>
+		<definition type="h" kind="rm">Ali, з перакладу</definition>
+	</article>
+
+	<article>
 		<key>antivirus</key>
+		<key>Anti virus</key>
 		<definition type="h" kind="al">антыві́рус</definition>
 		<definition type="h" kind="mt"><![CDATA[<a href="http://wg.kamputerm.org/meetings/sustreca-16">16</a>]]></definition>
 	</article>

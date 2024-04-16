@@ -11,6 +11,7 @@ class KamputermSaxHandler(xml.sax.handler.ContentHandler):
 
     def __init__(self, output, no_header):
         xml.sax.handler.ContentHandler.__init__(self)
+        self.num = 0
         self.text = ''
         self.reset()
         self.kind = ''
@@ -54,10 +55,13 @@ class KamputermSaxHandler(xml.sax.handler.ContentHandler):
     def endElement(self, name):
         if name == 'article':
             #TODO start
+            self.num += 1
             if 'на перагляд' in self.rmDefinition.lower():
-                self.out.write('<tr bgcolor="yellow"><td>')
+                self.out.write('<tr bgcolor="yellow"><td>' + str(self.num) + '</td><td>')
+            elif 'з перакладу' in self.rmDefinition.lower():
+                self.out.write('<tr bgcolor="green"><td>' + str(self.num) + '</td><td>')
             else:
-                self.out.write('<tr><td>')
+                self.out.write('<tr><td>' + str(self.num) + '</td><td>')
             for key in self.keys:
                 self.out.write(key)
                 self.out.write('<br>')
